@@ -31,4 +31,9 @@
 - XML has no predefined tags
 
 - HTML5 came out in 2008. the first official standard of HTML came out in 1995 which was HTML2
-- Fundamental change was the development of APIs, which runs in HTML5 
+- Fundamental change was the development of APIs, which runs in HTML5
+
+### What is an API?
+- stands for application programming interface(API)
+- its a list of commands as a format of commands to send from one program to another
+- allows interactions with other programs, people who write programs but wishes to use the functionality of other programs can simply use the API documentation to utilize the functionality and find the list of commands available to them.  
