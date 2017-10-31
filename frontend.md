@@ -37,3 +37,15 @@
 - stands for application programming interface(API)
 - its a list of commands as a format of commands to send from one program to another
 - allows interactions with other programs, people who write programs but wishes to use the functionality of other programs can simply use the API documentation to utilize the functionality and find the list of commands available to them.  
+
+### what happens when you type in a URL browser
+https://github.com/alex/what-happens-when - way over explained
+https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+- GIST-
+- You can type google in address bar
+- the browser checks the cache for a DNS record to find corresponding IP address
+- browser initiates a  TCP connection with the server
+- browser sends a HTTP request to web server
+- server handles request and sends back response
+- server sends out HTTP response
+- browser displays HTML content
