@@ -49,3 +49,18 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
 - server handles request and sends back response
 - server sends out HTTP response
 - browser displays HTML content
+
+
+### how does the internet work?
+
+- server is a box with an ip address
+- ISP(Internet Service Provider ) does an DNS(Domain Name System) look up
+- basically translates mysite.com into ip address(translates domain friendly names into Ip addresses computers can use to communicate with each other)
+- if found in local memory, website renders in a split second.  
+- if not found in local memory, takes it out to the internet, where it asks for a series of queries, a series of DNS servers
+- the first DNS server takes the domain name, if not found, it goes to the next DNS server
+- once found, it returns the IP address back to the computer
+- gets response back thats file/content type
+- gives back html file
+- begins parsing HTML document
+- CSS, HTML, Jquery(javaScript) in that order
