@@ -64,3 +64,6 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
 - gives back html file
 - begins parsing HTML document
 - CSS, HTML, Jquery(javaScript) in that order
+- Example: I request for google.com - get request
+
+- localhost listening on port:80, equivalent to http://63.45.2.4.124:80
