@@ -50,3 +50,15 @@
 - examples of client side processing - CSS, HTML, javaScript
 
 ## what is AJAX
+ - Ajax isnt a technology, its several. coming together, in powerful ways
+ - AJAX incorporates XHTML and CSS
+ - the DOM
+ - JavaScript
+ - XMLhttpRequest
+ - XML and XSLT
+
+
+ Browser client - User interface - JavaScript call - ajax engine - Http Request - web/XML server - datastores, backend processing , XML data, Ajax machine, HTML + CSS data, User interface
+
+ - XML , Web services, JSON
+ 
