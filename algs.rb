@@ -24,24 +24,41 @@ end
 
 def has_pair_with_sum(arr, sum)
 
-  low = 0
-  high =
-
-
+  # low = 0
+  temp_arr = []
+  arr.each_with_index do |num, i| # iterates thru the array, one step at a time
+    # complement = sum - arr[i]
+    # temp_arr << complement
+    return true if !temp_arr[sum - num].nil?
+    #if the new array of the complement exists
+    # return true
+    # new array equals the old array one step at a time
+    temp_arr[num] = i
+  end
+  false
 end
 
+p has_pair_with_sum([9,5,2,1], 8)
+p has_pair_with_sum([9,5,4,4], 8)
 
-has_pair_with_sum([1,2,3,9], 8)
+walkthrough 1
 
 
-public int[] twoSum(int[] nums, int target) {
-    Map<Integer, Integer> map = new HashMap<>();
-    for (int i = 0; i < nums.length; i++) {
-        int complement = target - nums[i];
-        if (map.containsKey(complement)) {
-            return new int[] { map.get(complement), i };
-        }
-        map.put(nums[i], i);
-    }
-    throw new IllegalArgumentException("No two sum solution");
-}
+
+
+
+
+
+
+
+# public int[] twoSum(int[] nums, int target) {
+#     Map<Integer, Integer> map = new HashMap<>();
+#     for (int i = 0; i < nums.length; i++) {
+#         int complement = target - nums[i];
+#         if (map.containsKey(complement)) {
+#             return new int[] { map.get(complement), i };
+#         }
+#         map.put(nums[i], i);
+#     }
+#     throw new IllegalArgumentException("No two sum solution");
+# }
