@@ -40,9 +40,26 @@ end
 
 p has_pair_with_sum([9,5,2,1], 8)
 p has_pair_with_sum([9,5,4,4], 8)
-
-walkthrough 1
-
+# 
+# walkthrough 1
+# return false
+# [9]
+# is 3 in the array? no, returns false
+# [9,5]
+# is 6 in the array? no? return false
+# [9,5,2]
+# is 7 in the array?, no returns false
+# [9,5,2,1]
+#
+# walkthrough 2
+# return false
+# [9]
+# is 3 in the array? no, returns false
+# [9,5]
+# is 4 in the array? no return false
+# [9,5,4]
+# is 4 in the array, yes, return true
+#
 
 
 
