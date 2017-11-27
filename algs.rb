@@ -40,7 +40,7 @@ end
 
 p has_pair_with_sum([9,5,2,1], 8)
 p has_pair_with_sum([9,5,4,4], 8)
-# 
+#
 # walkthrough 1
 # return false
 # [9]
@@ -79,3 +79,20 @@ p has_pair_with_sum([9,5,4,4], 8)
 #     }
 #     throw new IllegalArgumentException("No two sum solution");
 # }
+
+# We have two special characters. The first character can be represented by one bit 0.
+# The second character can be represented by two bits (10 or 11).
+# Now given a string represented by several bits.
+# Return whether the last character must be a one-bit character or not.
+# The given string will always end with a zero.
+
+ def bit_finder(arr)
+
+   if arr[-1] == 1 && arr[-2] == 1
+     return false
+  elsif arr[-1] == 0 && arr[-2] = 1
+    return false
+   else
+     true
+   end
+ end
