@@ -87,7 +87,6 @@ p has_pair_with_sum([9,5,4,4], 8)
 # The given string will always end with a zero.
 
  def bit_finder(arr)
-
    if arr[-1] == 1 && arr[-2] == 1
      return false
   elsif arr[-1] == 0 && arr[-2] = 1
@@ -96,3 +95,16 @@ p has_pair_with_sum([9,5,4,4], 8)
      true
    end
  end
+
+# Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+# Note:
+# The length of both num1 and num2 is < 5100.
+# Both num1 and num2 contains only digits 0-9.
+# Both num1 and num2 does not contain any leading zero.
+# You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+def add_strings(num1, num2)
+   num1.to_i + num2.to_i
+end
+
+add_strings("1231",'12312')
