@@ -79,3 +79,12 @@ CDN stores cached version of its content in geographical locations. Cache server
 CDN building blocks
 Points of interest, Caching servers, SSD/RAM
 Pop are located data centers responsible for communicating closer w people in its vicinity, each Pop contains numerous caching servers
+
+## what is DNS and list step by step how it works
+when you visit a domain, first it looks in the DNS cache, if not, it will do a DNS query .
+
+computer contacts ISP recursive DNS servers, recursive servers have their own cache, process generally ends here
+
+if not found, query root nameservers
+
+TLD nameservers 
