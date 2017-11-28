@@ -67,3 +67,15 @@ https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-th
 - Example: I request for google.com - get request
 
 - localhost listening on port:80, equivalent to http://63.45.2.4.124:80
+
+## what is a cookie and what does it do
+cookies are messages in web servers that get sent to your browser. your browser stores these messages in a small file .txt, when you request another page from the server, the browser sends the cookie back to the server.
+
+## what is a CDN and what does it do
+CDN stands for content delivery network. CDN is the transparent backbone of the internet. All of us interact with CDN on a daily basis
+
+CDN stores cached version of its content in geographical locations. Cache server will take less time to reach the user
+
+CDN building blocks
+Points of interest, Caching servers, SSD/RAM
+Pop are located data centers responsible for communicating closer w people in its vicinity, each Pop contains numerous caching servers
