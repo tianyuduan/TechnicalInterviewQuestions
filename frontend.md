@@ -87,4 +87,14 @@ computer contacts ISP recursive DNS servers, recursive servers have their own ca
 
 if not found, query root nameservers
 
-TLD nameservers 
+TLD nameservers
+
+293(313) + 70 = 383
+237(258) + 70 = 327
+227(239) + 70 = 302
+
+
+##  what is the DOM?
+the Dom stands for Document Object model. Its the browsers Internal programmable representation of the web page. The Dom can be manipulated by languages like JavaScript, changing the page without changing the HTML
+
+The DOM is a type of API
